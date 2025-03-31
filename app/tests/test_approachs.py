@@ -46,6 +46,10 @@ def post_approch_to_psychologist(client):
     response_create_psychologist = client.post("/users/psychologist", 
                                                json=psychologist_create, 
                                                headers=token)
-    psychologist_id = response_create_psychologist.json()["psychologist_id"]
-    
+    assert response_create_psychologist.status_code == status.HTTP_201_CREATED
+    response = client.post(f"/approachs/psychologist/{approach_id}", headers=token)
+    assert response.status_code == status.HTTP_201_CREATED
+    assert response.json()["approach_id"] == approach_id
+
+
 
