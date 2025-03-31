@@ -23,6 +23,9 @@ def login_user(client, user):
     assert response.status_code == status.HTTP_202_ACCEPTED
     return {"Authorization": f"Bearer {response.json()["access_token"]}"}
 
+def test_read_users(client):
+    response = client.get("/users")
+    assert response.status_code == status.HTTP_200_OK
 
 def test_create_custumer(client):
     response = client.post(
