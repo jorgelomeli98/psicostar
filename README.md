@@ -20,8 +20,8 @@ Esta API permite gestionar un catálogo de psicólogos, organizado por sus enfoq
 ### Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/tu-api.git
-cd tu-api
+git clone https://github.com/jorgelomeli98/psicostar
+cd psicostar
 ```
 
 ### Crear y activar un entorno virtual
