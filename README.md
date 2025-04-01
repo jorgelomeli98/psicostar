@@ -1,10 +1,10 @@
 # API para puntuar y catalogar psicologos
 
-API REST para catalogar psicologos por enfoques y ubicaciones, asi mismo puntuarlos y filtrarlos por experiencia
+API REST para catalogar psicólogos por enfoques, ubicaciones y experiencia, permitiendo puntuarlos y filtrarlos según criterios específicos.
 
 ## Descripción
 
-Esta API permite catalogar psicologos por medio de sus enfoques, experiencia y ubicaciones para que los usuarios puedan filtrar y a su vez puntuar y comentar.
+Esta API permite gestionar un catálogo de psicólogos, organizado por sus enfoques terapéuticos, años de experiencia y ubicación. Los usuarios pueden realizar búsquedas filtradas según estos criterios, además de tener la opción de puntuar y dejar comentarios sobre los psicólogos, facilitando la elección y evaluación de los profesionales más adecuados a sus necesidades.
 
 ## Tecnologías
 
